@@ -1,7 +1,7 @@
 " Vim color file
 "
 " Author: Pratheek <github.com/pychimp>
-"
+" Version: 1.6.0
 " Port of the LightTwist theme I had 
 " created for 256 Terminal, to Gui Vim interface.
 "
