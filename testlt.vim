@@ -28,50 +28,38 @@ hi Float         guifg=#5f00ff guibg=NONE gui=NONE
 hi Identifier    guifg=#00af5f guibg=NONE gui=NONE    
 hi Function      guifg=#af005f guibg=NONE gui=NONE      
 hi Statement     guifg=#005fd7 guibg=NONE gui=NONE     
-" hi Keyword       guifg=# guibg=# gui=#       
-" hi Exception     guifg=# guibg=# gui=#     
-" hi Conditional   guifg=# guibg=# gui=#   
-" hi PreProc       guifg=# guibg=# gui=#       
-" hi Include       guifg=# guibg=# gui=#       
-" hi Type          guifg=# guibg=# gui=#          
-" hi StorageClass  guifg=# guibg=# gui=# 
-" hi Special       guifg=# guibg=# gui=#       
-" hi Tag           guifg=# guibg=# gui=# 
-" hi Underlined    guifg=# guibg=# gui=#
-" hi Ignore        guifg=# guibg=# gui=#
-" hi Error         guifg=# guibg=# gui=#
-" hi TODO          guifg=# guibg=# gui=#
+hi Keyword       guifg=#005fff guibg=NONE gui=NONE      
+hi Exception     guifg=#af5f00 guibg=NONE gui=NONE     
+hi Conditional   guifg=#af8700 guibg=NONE gui=NONE
+hi PreProc       guifg=#5faf00 guibg=NONE gui=NONE
+hi Include       guifg=#00875f guibg=NONE gui=NONE
+hi Type          guifg=#870000 guibg=NONE gui=NONE
+hi StorageClass  guifg=#875f00 guibg=NONE gui=NONE
+hi Special       guifg=#d75f5f guibg=NONE gui=NONE
+hi Tag           guifg=#ff87d7 guibg=NONE gui=NONE
+hi Underlined    guifg=#af87ff guibg=NONE gui=NONE
+hi Ignore        guifg=#808080 guibg=NONE gui=NONE
+hi Error         guifg=#870000 guibg=#ffa40b gui=NONE
+hi TODO          guifg=#ff0087 guibg=#ffff87 gui=NONE
 
 " --------------------------------------------------------------------
 " Extended Highlighting
 
-" hi NonText       guifg= guibg= gui=       
-" hi Visual        guifg= guibg= gui=
-" hi ErrorMsg      guifg= guibg= gui=
-" hi IncSearch     guifg= guibg= gui=
-" hi Search        guifg= guibg= gui=
-" hi MoreMsg       guifg= guibg= gui=
-" hi ModeMsg       guifg= guibg= gui=
-" hi LineNr        guifg= guibg= gui=
-" hi VertSplit     guifg= guibg= gui=
-" hi VisualNOS     guifg= guibg= gui=
-" hi Folded        guifg= guibg= gui=
-" hi DiffAdd       guifg= guibg= gui=
-" hi DiffChange    guifg= guibg= gui=
-" hi DiffDelete    guifg= guibg= gui=
-" hi DiffText      guifg= guibg= gui=
-" hi DiffAdd       guifg= guibg= gui=
-" hi DiffChange    guifg= guibg= gui=
-" hi DiffDelete    guifg= guibg= gui=
-" hi DiffText      guifg= guibg= gui=
-" hi DiffAdd       guifg= guibg= gui=
-" hi DiffChange    guifg= guibg= gui=
-" hi DiffDelete    guifg= guibg= gui=
-" hi DiffText      guifg= guibg= gui=
-" hi DiffAdd       guifg= guibg= gui=
-" hi DiffChange    guifg= guibg= gui=
-" hi DiffDelete    guifg= guibg= gui=
-" hi DiffText      guifg= guibg= gui=
+hi NonText       guifg=#838383 guibg=NONE    gui=NONE       
+hi Visual        guifg=#262626 guibg=#ffff4d gui=NONE
+hi ErrorMsg      guifg=#870000 guibg=#ffa40b gui=NONE
+hi IncSearch     guifg=#262626 guibg=#ff9933 gui=NONE
+hi Search        guifg=#262626 guibg=#ff9933 gui=NONE
+hi MoreMsg       guifg=#262626 guibg=NONE    gui=NONE
+hi ModeMsg       guifg=#262626 guibg=NONE    gui=NONE
+hi LineNr        guifg=#838383 guibg=NONE    gui=NONE
+hi VertSplit     guifg=#eeeeee guibg=#eeeeee gui=NONE
+hi VisualNOS     guifg=#262626 guibg=#ffff4d gui=NONE
+hi Folded        guifg=#008080 guibg=#c1cdc1 gui=NONE
+hi DiffAdd       guifg=#ffffff guibg=#00cc00 gui=NONE
+hi DiffChange    guifg=#ffffff guibg=#b300b3 gui=NONE
+hi DiffDelete    guifg=#ffffff guibg=#cd0000 gui=NONE
+hi DiffText      guifg=#ffffff guibg=#008040 gui=NONE
 " hi SpellBad      guifg= guibg= gui=
 " hi SpellCap      guifg= guibg= gui=
 " hi SpellRare     guifg= guibg= gui=
@@ -82,9 +70,6 @@ hi StatusLineNC  guifg=#ffffff guibg=#b3b3b3 gui=NONE
 " hi PmenuSel      guifg= guibg= gui=
 " hi PmenuSbar     guifg= guibg= gui=
 " hi PmenuThumb    guifg= guibg= gui=
-" hi TabLine       guifg= guibg= gui=
-" hi TabLineFill   guifg= guibg= gui=
-" hi TabLineSel    guifg= guibg= gui=
-" hi MatchParen    guifg= guibg= gui=
-hi CursorLine    guifg=NONE guibg=#efefef gui=NONE
-hi CursorColumn  guifg=NONE guibg=#a4c639 gui=NONE
+hi MatchParen    guifg=#000000 guibg=#ff4040 gui=NONE
+hi CursorLine    guifg=NONE    guibg=#b4b4b4 gui=NONE
+hi CursorColumn  guifg=NONE    guibg=#a4c639 gui=NONE
